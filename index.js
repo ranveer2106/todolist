@@ -5,7 +5,6 @@ document.querySelector('#sinput').onclick = function () {
         alert("please enter something");
     }
     else {
-        // e.preventDefault();
         document.querySelector('#tasklist').innerHTML +=
             `
         <div class="taskele">
@@ -36,21 +35,9 @@ document.querySelector('#sinput').onclick = function () {
             }
 
         }
-        // let tasks = document.querySelectorAll(".taskele");
-        // for (let i = 0; i < tasks.length; i++) {
-        //     tasks[i].onclick = function () {
-        //         this.classList.toggle('completed');
-        //     }
-        // }
+
         document.querySelector('#input').value = "";
     }
 }
 
-// let tasknow = document.querySelectorAll(".delete");
-// for (let i = 0; i < tasknow.length; i++) {
-//     tasknow[i].onclick = function () {
-//         // this.parentNode.removeChild();
-//         console.log('h');
-//     }
-// }
 
